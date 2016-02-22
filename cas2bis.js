@@ -1,8 +1,10 @@
 var data = {
   animaux : [['Le chat','Le chien','Le cheval', 'L\'ourson', 'Le pélican', 'Le hérisson', 'Le hamster', 'Le canard', 'La dinde'], 
-           ['a vu','a mangé','a croqué','a volé','a entendu','a avalé', 'a dévoré', 'a grignoté', 'a siroté', 'a machouillé'], 
-           ['un bel osselet','une banane rouge','un carton de steaks','une antilope','un cerf-volant', 'une frite molle', 'une patate douce', 'un os à moëlle', 'une knacky', 'un ananas rose', 'une pastèque jaune']],
-  heros : [['Hulk', 'Iron man'],['combat', 'frappe'],['les Chitauris', 'Hydra']]
+            ['a vu','a mangé','a croqué','a volé','a entendu','a avalé', 'a dévoré', 'a grignoté', 'a siroté', 'a machouillé'], 
+            ['un bel osselet','une banane rouge','un carton de steaks','une antilope','un cerf-volant', 'une frite molle', 'une patate douce', 'un os à moëlle', 'une knacky', 'un ananas rose', 'une pastèque jaune']],
+  heros : [['Hulk', 'Iron man', 'Thor','La Veuve noire','Captain America', 'Oeil de faucon', 'La Torche', 'Spiderman', 'Superman'],
+          ['combat', 'frappe', 'anéantit', 'écrase', 'neutralise', 'écrabouille','tabasse', 'cogne'],
+          ['les Chitauris', 'Hydra', 'Loki', 'Thanos', 'Ultron', 'Magneto', 'Galactus', 'Red Skull', 'Mephisto']]
 };
 
 /* La donnée saisie 'en dur' est un objet dont les attributs sont des tableaux (listes) de tableaux (sous-listes)
