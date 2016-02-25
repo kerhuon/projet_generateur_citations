@@ -7,9 +7,9 @@ var data = {
           ['les Chitauris', 'Hydra', 'Loki', 'Thanos', 'Ultron', 'Magneto', 'Galactus', 'Red Skull', 'Mephisto']]
 };
 
-/* La donnée saisie 'en dur' est un objet dont les attributs sont des tableaux (listes) de tableaux (sous-listes)
-contient actuellement deux listes : animaux et heros
-On pourrait imaginer qu'elle puisse être récupérée en format JSON depuis un web service par exemple */
+/* La donnée saisie 'en dur' est un objet dont les attributs sont des tableaux (listes) de tableaux (sous-listes).
+data contient actuellement deux listes : animaux et heros
+On pourrait imaginer que "data" puisse être récupérée en format JSON depuis un web service par exemple */
 
 // ************ Générer la citation ************
 function genere_citation(liste){
