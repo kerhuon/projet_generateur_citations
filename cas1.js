@@ -1,12 +1,11 @@
 var data = {
   animaux : [['Le chat','Le chien','Le cheval', 'L\'ourson', 'Le pélican', 'Le hérisson', 'Le hamster', 'Le canard', 'La dinde'], 
-           ['a vu','a mangé','a croqué','a volé','a entendu','a avalé', 'a dévoré', 'a grignoté', 'a siroté', 'a machouillé'], 
-           ['un bel osselet','une banane rouge','un carton de steaks','une antilope','un cerf-volant', 'une frite molle', 'une patate douce', 'un os à moëlle', 'une knacky', 'un ananas rose', 'une pastèque jaune']],
-  heros : [['Hulk', 'Iron man'],['combat', 'frappe'],['les Chitauris', 'Hydra']]
+            ['a vu','a mangé','a croqué','a volé','a entendu','a avalé', 'a dévoré', 'a grignoté', 'a siroté', 'a machouillé'], 
+            ['un bel osselet','une banane rouge','un carton de steaks','une antilope','un cerf-volant', 'une frite molle', 'une patate douce', 'un os à moëlle', 'une knacky', 'un ananas rose', 'une pastèque jaune']]
 };
 
 /* La donnée saisie 'en dur' est un objet dont les attributs sont des tableaux (listes) de tableaux (sous-listes)
-contient actuellement deux listes : une complète animaux et heros en cours de remplissage
+contient actuellement une liste : animaux
 On pourrait imaginer qu'elle puisse être récupérée en format JSON depuis un web service par exemple*/
 
 function genere_citation(liste){
